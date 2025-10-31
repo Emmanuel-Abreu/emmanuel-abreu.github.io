@@ -1,0 +1,13 @@
+.ArtPiece{
+  align-self: center;
+  height: 50vh;
+  width: 30vw;
+  color: blue;
+  margin: 5vh;
+}
+
+p{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

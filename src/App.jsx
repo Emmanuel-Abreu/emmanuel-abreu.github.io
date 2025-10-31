@@ -1,4 +1,12 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Banner from './components/Banner'
+import About from './pages/about/About';
+import ArtPiece from './components/ArtPiece';
+import ArtPiece2 from './components/ArtPiece2';
+import Projects from './pages/projects/Projects';
+import Footer from './components/Footer';
 // Components to create and import:
 // Navbar
 // Project "thumbnails"
@@ -7,27 +15,23 @@ import { useState } from 'react'
 //
 //
 //
-
-
-
 import './App.css'
-//import Navbar from './components/Navbar'
-//import About from './components/About'
 
-function App() {
+export default function App() {
   //const [count, setCount] = useState(0)
 
   return (
     <div className='App'>
+      <Banner/>
       <Router>
         <Navbar/>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/pages/About" element={<About/>}></Route>
-        <Route path="/pages/Artwork" element={<Artwork/>}></Route>
-        <Route path="pages/" element={<Home/>}></Route>
+        <Routes>
+          <Route path="/pages/about" element={<About/>}></Route>
+          <Route path="/pages/projects" element={<Projects/>}></Route>
+        </Routes>
       </Router>
+      <ArtPiece2/>
+      <Footer/>
     </div>
-  )
+  );
 }
-
-export default App

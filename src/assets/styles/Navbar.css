@@ -1,0 +1,17 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5vh;
+    border: 3px dashed red;
+    width: 100vw;
+}
+
+.NavLink{
+  display: flex;
+  justify-content: center;
+  border: 3px dashed blue;
+  width: 15vw;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}

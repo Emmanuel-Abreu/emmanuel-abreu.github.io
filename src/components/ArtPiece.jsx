@@ -1,9 +1,11 @@
 import React from "react";
+import '../assets/styles/ArtPiece.css'
 
-export default function ArtPiece(){
+export default function ArtPiece(props){
+  
   return (
-    <div>
-
+    <div className="ArtPiece">
+      <p>ArtWork</p>
     </div>
   );
 }

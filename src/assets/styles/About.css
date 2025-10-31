@@ -1,0 +1,11 @@
+.About{
+  justify-self: center;
+  align-self: center;
+  color: black;
+  width: 80vw;
+}
+
+h3{
+  width: 20vw;
+  justify-self: center;
+}

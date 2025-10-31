@@ -1,0 +1,7 @@
+.Banner{
+  display: flex;
+  justify-content: center;
+  border: 5px dashed yellow;
+  color: black;
+  font-weight: 100;
+}
