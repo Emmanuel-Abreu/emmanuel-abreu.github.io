@@ -4,6 +4,7 @@
   width: 30vw;
   color: blue;
   margin: 5vh;
+  align-content: flex-end;
 }
 
 p{
