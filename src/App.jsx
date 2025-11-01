@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner'
 import About from './pages/about/About';
 import ArtPiece from './components/ArtPiece';
-import ArtPiece2 from './components/ArtPiece2';
 import Projects from './pages/projects/Projects';
 import Footer from './components/Footer';
 // Components to create and import:
@@ -30,7 +29,7 @@ export default function App() {
           <Route path="/pages/projects" element={<Projects/>}></Route>
         </Routes>
       </Router>
-      <ArtPiece2/>
+      <ArtPiece/>
       <Footer/>
     </div>
   );
