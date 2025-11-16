@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import ArtPiece from './components/ArtPiece';
 import Projects from './pages/projects/Projects';
 import Footer from './components/Footer';
+
 // Components to create and import:
 // Navbar
 // Project "thumbnails"
